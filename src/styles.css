@@ -1,1 +1,147 @@
-/* You can add global styles to this file, and also import other style files */
+
+.contenedor-nav{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.contenedor-nav>nav{
+    width: 80%;
+}
+
+.nav-restaurante{
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 242px;
+    background:  #2DB6B6;
+    border-radius: 20px;
+}
+
+.nav-color{
+background: #2DB6B6;
+color: #fff;
+border-radius: 20px;
+}
+
+.item-res{
+    width: 80%;
+    margin: 0px auto;
+    background: white;
+   /*text-align: center;*/
+    color: #2DB6B6;
+    border-radius: 10px
+}
+
+.btn-color{
+    color: white;
+    background: #FE8450;
+}
+
+.nav-centrar{
+    margin:10px auto;  
+}
+
+.iconos{
+    margin-right: 20px;
+width: 25px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.con-menu{
+    margin: 30px auto;
+    width: 1000px;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-top: 10px;
+    width: 235px;
+    height: 335px;
+}
+
+.card>img{
+    height:146px;
+    width: 235px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card>button{
+    width: 93px;  
+}
+
+.linea>img{
+    width:25px;
+}
+.datos{
+    margin-left: 10px;
+}
+
+@media screen and (max-width:500px){
+    .nav-restaurante{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .item-res{
+        margin-top:10px;
+    }
+    .con-menu{
+        width: 90%;
+        
+    }
+    .contenedor-nav>nav{
+        width: 100%;
+        
+    }
+    .nav-color{
+border-radius: 0px;
+}
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin-top: 10px;
+        width: 200px;
+        height: 375px;
+    }
+
+    .card>img{
+        height:170px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .card>button{
+        width: 80px;  
+        height: 30px;
+    }
+    
+}
+
+@media screen and (max-width:448px){
+  
+    .card{
+        margin-top: 10px;
+        width: 180px;
+        height: 395px;
+    }
+ .card>img{
+        height:170px;
+        width: 180px;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    
+}
